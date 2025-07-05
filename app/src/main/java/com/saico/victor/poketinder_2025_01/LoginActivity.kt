@@ -1,6 +1,5 @@
 package com.saico.victor.poketinder_2025_01
 
-import MainActivity
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
@@ -48,7 +47,7 @@ class LoginActivity : AppCompatActivity() {
         }
 
         binding.btnRegister.setOnClickListener {
-            //startActivity(Intent(this, RegisterActivity::class.java))
+            startActivity(Intent(this, RegisterActivity::class.java))
         }
     }
 }
